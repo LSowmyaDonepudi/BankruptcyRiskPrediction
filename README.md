@@ -61,3 +61,18 @@ This project requires the following Python libraries:
 - Seaborn
 - Scikit-learn
 - Imbalanced-learn
+
+## Discussion-
+• For this dataset, recall is a better performance metric as there is no cost in falsely
+identifying a non-bankrupt company as bankrupt but wrongly identifying a bankrupt
+company as non-bankrupt can have some serious consequences.
+• After implementing oversampling using SMOTE and using stratified k-fold, we can
+see the improvement in the models especially in recall.
+• Logistic Regression with SMOTE was the most balanced and well performing model
+overall.
+• On the other hand, Naïve bayes with stratified k-fold and SMOTE, had better
+accuracy and recall out of all the variants of both models.
+• The performance of the models could have been better if more data on bankrupt
+company was available.
+• For future reference, models used for anomaly detection might perform well on this
+dataset since the dataset is highly imbalanced.
